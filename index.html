@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Note book</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="wrapper">
+
+		<div id="navbar">
+			<input type="text" placeholder="Search" class="search">
+			<input type="button" value="Add New Note" id="addNote">
+		</div>
+
+		<section id="noteBook"></section>
+
+		<section class="hidden" id="noteNode">
+			<form id="noteForm">
+				<p id="numLetters"></p>
+				<input type="text" placeholder="New Note title" name="title">
+				<textarea name="content"></textarea>
+				<div>
+					<input type="button" value="Save" id="save" name="submit">
+					<input type="button" value="Discard" id="discard" name="discard">
+				</div>
+			</form>
+		</section>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
